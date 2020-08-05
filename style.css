@@ -9,7 +9,6 @@
 	margin: auto;
 	padding: 0 20px;
 	max-width: 960px;
-	min-width: 600px;
 }
 
 .top img {
@@ -79,6 +78,7 @@ h2 {
 .bottom .left .content, .flex-box {
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 @media screen and (min-width: 768px), print {
