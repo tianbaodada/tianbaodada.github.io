@@ -3,12 +3,13 @@
 	margin: 0;
 	padding: 0;
 	list-style: none;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .wrap {
 	margin: auto;
 	padding: 0 20px;
-	max-width: 960px;
+	max-width: 865px;
 }
 
 .top img {
@@ -34,6 +35,10 @@ ul {
 }
 
 h2 {
+	font-size: 18px;
+}
+
+h3 {
 	font-size: 16px;
 }
 
@@ -48,12 +53,16 @@ h2 {
 }
 
 .top .item {
-	padding: 0 10px;
+	padding: 10px;
 }
 
 .bottom .item {
 	padding: 10px;
 	border-top: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+li {
+	font-size: 14px;
 }
 
 .right li {
@@ -62,7 +71,7 @@ h2 {
 }
 
 .top p {
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .bottom p {
@@ -70,17 +79,17 @@ h2 {
 	font-style: italic;
 }
 
-.content {
-	margin: 10px 0 0 0;
-}
-
 .bottom .left .content, .flex-box {
 	display: flex;
-	justify-content: center;
 	flex-wrap: wrap;
 }
 
-@media screen and (min-width: 768px), print {
+.flex-item {
+	margin: 0 10px;
+}
+
+@media screen and (min-width: 700px), print {
+
 	.bottom .left .content, .flex-box {
 		display: block;
 	}
@@ -100,6 +109,7 @@ h2 {
 
 	.left {
 		width: 25%;
+		min-width: 185.75px;
 	}
 
 	.right {
@@ -111,7 +121,7 @@ h2 {
 	}
 
 	.bottom .middle {
-		margin: 30px 0 30px;
+		/* margin: 30px 0 30px; */
 		border-left: 1px solid rgba(55, 53, 47, 0.09);
 	}
 }
