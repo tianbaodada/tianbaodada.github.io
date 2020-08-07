@@ -84,7 +84,12 @@ li {
 	flex-wrap: wrap;
 }
 
+.flex-box .item {
+	flex-grow: 1;
+}
+
 .flex-item {
+	flex-grow: 1;
 	margin: 0 10px;
 }
 
