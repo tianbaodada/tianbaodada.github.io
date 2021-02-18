@@ -65,7 +65,7 @@ li {
 	font-size: 16px;
 }
 
-.right li {
+.bottom .right li {
 	text-align: left;
 	list-style: disc;
 }
@@ -82,6 +82,7 @@ li {
 .bottom .left .content, .flex-box {
 	display: flex;
 	flex-wrap: wrap;
+
 }
 
 .flex-box .item {
@@ -93,7 +94,7 @@ li {
 	margin: 0 10px;
 }
 
-@media screen and (min-width: 768px), print {
+@media screen and (min-width: 887px), print {
 
 	.bottom .left .content, .flex-box {
 		display: block;
