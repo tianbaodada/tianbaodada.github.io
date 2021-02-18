@@ -29,6 +29,10 @@ ul {
 	margin: 10px 20px;
 }
 
+.top .right ul {
+	margin: 0;
+}
+
 .top .title {
 	display: flex;
 	align-items: baseline;
@@ -94,7 +98,7 @@ li {
 	margin: 0 10px;
 }
 
-@media screen and (min-width: 887px), print {
+@media screen and (min-width: 862px), print {
 
 	.bottom .left .content, .flex-box {
 		display: block;
