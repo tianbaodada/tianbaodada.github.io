@@ -94,6 +94,10 @@ li {
 	list-style: disc;
 }
 
+.bottom .right .item .content {
+    margin-top: 7px;
+}
+
 .top p {
 	font-size: 18px;
 }
