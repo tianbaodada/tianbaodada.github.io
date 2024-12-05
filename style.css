@@ -86,7 +86,8 @@ h3 {
 }
 
 li {
-	font-size: 16px;
+	font-size: 15px;
+	list-style: disc;
 }
 
 .bottom .right li {
@@ -142,12 +143,12 @@ li {
 	}
 
 	.left {
-		width: 25%;
+		width: 29%;
 		min-width: 185.75px;
 	}
 
 	.right {
-		width: 75%;
+		width: 71%;
 	}
 
 	img {
